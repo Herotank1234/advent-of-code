@@ -17,10 +17,10 @@ const VAL_TO_CHAR_DIR: phf::Map<char, char> = phf_map! {
 };
 
 const CHAR_DIR_TO_DIR: phf::Map<char, (i64, i64)> = phf_map! {
-    'U' => (-1, 0),
-    'R' => (0, 1),
-    'D' => (1, 0),
-    'L' => (0, -1)
+  'U' => (-1, 0),
+  'R' => (0, 1),
+  'D' => (1, 0),
+  'L' => (0, -1)
 };
 
 fn find_lagoon_area(instructions: &Vec<Instruction>) -> u64 {
