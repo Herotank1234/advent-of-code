@@ -10,6 +10,7 @@ phf = { version = "0.13.1", features = ["macros"] }
 priority-queue = "2.7.0"
 regex = "1.10.4"
 num-bigint = "0.4.6"
+rand = "0.10.0"
 
 [[bin]]
 name = "q1"
