@@ -1,0 +1,106 @@
+[package]
+name = "aoc_2022"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "q1"
+path = "src/q1.rs"
+
+[[bin]]
+name = "q2"
+path = "src/q2.rs"
+
+[[bin]]
+name = "q3"
+path = "src/q3.rs"
+
+[[bin]]
+name = "q4"
+path = "src/q4.rs"
+
+[[bin]]
+name = "q5"
+path = "src/q5.rs"
+
+[[bin]]
+name = "q6"
+path = "src/q6.rs"
+
+[[bin]]
+name = "q7"
+path = "src/q7.rs"
+
+[[bin]]
+name = "q8"
+path = "src/q8.rs"
+
+[[bin]]
+name = "q9"
+path = "src/q9.rs"
+
+[[bin]]
+name = "q10"
+path = "src/q10.rs"
+
+[[bin]]
+name = "q11"
+path = "src/q11.rs"
+
+[[bin]]
+name = "q12"
+path = "src/q12.rs"
+
+[[bin]]
+name = "q13"
+path = "src/q13.rs"
+
+[[bin]]
+name = "q14"
+path = "src/q14.rs"
+
+[[bin]]
+name = "q15"
+path = "src/q15.rs"
+
+[[bin]]
+name = "q16"
+path = "src/q16.rs"
+
+[[bin]]
+name = "q17"
+path = "src/q17.rs"
+
+[[bin]]
+name = "q18"
+path = "src/q18.rs"
+
+[[bin]]
+name = "q19"
+path = "src/q19.rs"
+
+[[bin]]
+name = "q20"
+path = "src/q20.rs"
+
+[[bin]]
+name = "q21"
+path = "src/q21.rs"
+
+[[bin]]
+name = "q22"
+path = "src/q22.rs"
+
+[[bin]]
+name = "q23"
+path = "src/q23.rs"
+
+[[bin]]
+name = "q24"
+path = "src/q24.rs"
+
+[[bin]]
+name = "q25"
+path = "src/q25.rs"
