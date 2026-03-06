@@ -16,25 +16,23 @@ impl MixList {
   }
 
   fn mix(&mut self) {
-    let mut next_list = self.list.clone();
     for id in 0..self.list.len() {
-      let mut index = next_list.iter().position(|(_, other_id)| id == *other_id)
+      let mut index = self.list.iter().position(|(_, other_id)| id == *other_id)
         .unwrap() as isize;
-      let (value, _) = next_list[index as usize];
-      next_list.remove(index as usize);
+      let (value, _) = self.list[index as usize];
+      self.list.remove(index as usize);
 
       index += value as isize;
-      index %= next_list.len() as isize;
+      index %= self.list.len() as isize;
       if index < 0 {
-        index += next_list.len() as isize;
+        index += self.list.len() as isize;
       }
-      if index > next_list.len() as isize {
-        index -= next_list.len() as isize;
+      if index > self.list.len() as isize {
+        index -= self.list.len() as isize;
       }
 
-      next_list.insert(index as usize, (value, id));
+      self.list.insert(index as usize, (value, id));
     }
-    self.list = next_list;
   }
 
   fn get_after_0(&self, index: usize) -> i64 {
